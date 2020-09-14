@@ -1,0 +1,13 @@
+.text-sobremi {
+    background-color: darkcyan;
+    width: inherit;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text-sobremi h3 {
+    font-size: 36px;
+    color: var(--colorBlanco);
+}
