@@ -17,7 +17,7 @@
 
 .inicio img {
     height: 455px;
-    width: 1400px;
+    width: 1340px;
     align-content: center;
 }
 
@@ -29,7 +29,7 @@
 
 .text-sobremi {
     background-color: darkcyan;
-    height: 170px;
+    height: 140px;
     flex-direction: column;
     justify-content: space-around;
 }
@@ -43,19 +43,75 @@
 .text-sobremi label {
     text-align: center;
     font-family: Helvetica;
+    justify-self: space-around;
     font-size: 20px;
 }
 
-.text-sobremi botonSM {
+.botonSM {
     background-color: darkcyan;
+    height: 40px;
+}
+
+.botonSM button {
+    color: black;
+    border-color: violet;
+    background-color: violet;
+    font-size: 28px;
 }
 
 .image-portafolio {
-    background-color: darkgoldenrod;
+    background-color: rgb(204, 191, 13);
     text-align: center;
     font-size: 29px;
 }
 
 .image-portafolio img {
     height: 170px;
+}
+
+.contacto {
+    background-color: rgb(20, 79, 168);
+    text-align: center;
+    font-size: 30px;
+}
+
+.nameapell-contacto {
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(20, 79, 168);
+}
+
+.nameapell-contacto input {
+    font-size: 40px;
+}
+
+.mailphone-contacto {
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(20, 79, 168);
+}
+
+.mailphone-contacto input {
+    font-size: 40px;
+}
+
+.descrp-contacto {
+    font-size: 100px;
+    text-align: center;
+    background-color: rgb(20, 79, 168);
+}
+
+.descrp-contacto input {
+    font-size: 81px;
+}
+
+.botonC {
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(20, 79, 168);
+}
+
+.botonC button {
+    font-size: 35px;
+    background-color: rgb(42, 42, 46);
 }
